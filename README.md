@@ -1,7 +1,7 @@
 # Image Filter
 
 ## Projektbeschreibung
-Dieses Projekt wurde im Rahmen eines MINTANO-Bewerbung entwickelt und bietet eine einfache Webanwendung zur Bildbearbeitung. Benutzer können ein Bild hochladen, ein vordefiniertes Overlay anwenden und das bearbeitete Bild mit einem Wasserzeichen herunterladen. Die Anwendung wurde mit HTML, Tailwind CSS und Vanilla JavaScript erstellt.
+Dieses Projekt wurde für eine MINTANO-Bewerbung entwickelt und bietet eine einfache Webanwendung zur Bildbearbeitung. Benutzer können ein Bild hochladen, ein vordefiniertes Overlay anwenden und das bearbeitete Bild mit einem Wasserzeichen herunterladen. Die Anwendung wurde mit HTML, Tailwind CSS und Vanilla JavaScript erstellt.
 
 ### Funktionen
 1. **Thumbnail-Erstellung:**
