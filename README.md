@@ -1,5 +1,8 @@
 # Image Filter
 
+## Live-Demo
+Testen Sie die Anwendung hier: [Image Filter Live-Demo](https://andreas-antonio-iancu.github.io/Image_Filter/)
+
 ## Projektbeschreibung
 Dieses Projekt wurde für eine MINTANO-Bewerbung entwickelt und bietet eine einfache Webanwendung zur Bildbearbeitung. Benutzer können ein Bild hochladen, ein vordefiniertes Overlay anwenden und das bearbeitete Bild mit einem Wasserzeichen herunterladen. Die Anwendung wurde mit HTML, Tailwind CSS und Vanilla JavaScript erstellt.
 
@@ -29,6 +32,3 @@ Dieses Projekt wurde für eine MINTANO-Bewerbung entwickelt und bietet eine einf
 
 ## Autor
 Dieses Projekt wurde von **Andreas-Antonio Iancu** entwickelt.
-
-## Live-Demo
-Testen Sie die Anwendung hier: [Image Filter Live-Demo](https://andreas-antonio-iancu.github.io/Image_Filter/)
