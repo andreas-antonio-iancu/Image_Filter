@@ -137,6 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
 
         handleOverlay() {
+            if (!baseImage) return;
             // Clear the canvas and redraw the base image
             ctx.clearRect(0, 0, canvas.width, canvas.height);
             ctx.drawImage(baseImage, 0, 0, canvas.width, canvas.height);
