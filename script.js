@@ -18,34 +18,33 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initialization Functions
     const Initialization = {
-        initializeControls() 
-        // Define controls and their unit measures
+        initializeControls() {
             const controls = [
                 { id: 'position-x' },
                 { id: 'position-y' },
                 { id: 'scaling' },
                 { id: 'rotation' }
             ];
+
             const unitMeasures = {
                 'position-x': '%',
                 'position-y': '%',
                 'scaling': '%',
                 'rotation': '°'
             };
-    
-            // Updates the displayed value of a control
+
             function updateControlValue(controlId, value) {
                 const output = document.getElementById('value-' + controlId);
                 output.textContent = value + (unitMeasures[controlId] || '');
             }
-            // Attach event listeners to each control to update values dynamically
+
             for (let i = 0; i < controls.length; i++) {
                 const control = controls[i];
                 const input = document.getElementById(control.id);
                 updateControlValue(control.id, input.value);
                 input.addEventListener('input', () => {
                     updateControlValue(control.id, input.value);
-                    Overlay.handleOverlay(); // Reapply overlay whenever a control changes
+                    Overlay.handleOverlay();
                 });
             }
         },
